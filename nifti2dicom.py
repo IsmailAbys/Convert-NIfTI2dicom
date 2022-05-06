@@ -67,6 +67,6 @@ def nifti2dicom_mfiles(nifti_dir, out_dir=''):
 
 
 if __name__ == "__main__":
-    nifti_dir = r"C:\Users\Utilisateur\OneDrive - ABYS MEDICAL\Bureau\conversion\nifti"
-    out_dir = r"C:\Users\Utilisateur\OneDrive - ABYS MEDICAL\Bureau\conversion\dicom"
+    nifti_dir = "Specify the path to the folder that contains the nifti files"
+    out_dir = "scpecifies the path to the folder where the dicom files will be saved"
     nifti2dicom_mfiles(nifti_dir, out_dir)
